@@ -4,6 +4,7 @@
 }
 html {
     font-size: 16px;
+    font-family: "Proxima Nova", Helvetica, sans-serif;
 }
 ul {
     margin-right: 24px;
@@ -11,7 +12,7 @@ ul {
 li {
     display: inline;
 }
-.banner {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,4 +36,36 @@ li {
 }
 .bold {
     font-weight: bold;
+}
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.banner img {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+}
+.intro {
+    display: inline-flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+.button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: darkslategray;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 1rem;
 }
