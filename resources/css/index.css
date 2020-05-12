@@ -127,3 +127,46 @@ h3 {
 a {
     color: blue;
 }
+.startlearning h1 {
+    text-align: center;
+    margin: 32px 0;
+}
+.startlearning {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+}
+.course {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    margin: 0 72px 32px 72px;
+}
+.courses {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    margin: 0 72px 32px 72px;
+}
+.window {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    background-color: white;
+}
+.windows { 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.course img {
+    height: auto;
+    width: 100%;
+}
+.courses img {
+    height: auto;
+    width: 100%;
+}
