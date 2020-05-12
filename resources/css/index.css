@@ -54,7 +54,7 @@ li {
     flex-direction: column;
 }
 h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 h3 {
     font-size: 2rem;
@@ -68,4 +68,62 @@ h3 {
     font-size: 1.5rem;
     border: none;
     margin-top: 1rem;
+}
+.maincontainer {
+    display: flex;
+    width: 100%;
+}
+.caption {
+    width: 60%;
+    margin: 32px 24px;
+}
+.news {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 32px;
+}
+.caption img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 32px;
+}
+.caption h1 {
+    margin-bottom: 24px;
+}
+.emanuel {
+    margin: 32px 0;
+}
+.date {
+    display: flex;
+    margin: 0 16px 16px 16px;
+}
+.date img {
+    width: 35%;
+    height: auto;
+    margin-right: 16px;
+}
+.campus {
+    display: flex;
+    margin: 16px;
+}
+.campus img {
+    width: 35%;
+    height: auto;
+    margin-right: 16px;
+}
+.guest {
+    display: flex;
+    margin: 16px;
+}
+.guest img {
+    width: 35%;
+    height: auto;
+    margin-right: 16px;
+}
+.space {
+    margin: 8px 0;
+}
+a {
+    color: blue;
 }
