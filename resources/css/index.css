@@ -45,7 +45,7 @@ li {
     background-color: whitesmoke;
 }
 .banner img {
-    width: 60%;
+    width: 58%;
     height: auto;
     margin: 32px 24px;
 }
@@ -127,46 +127,60 @@ h3 {
 a {
     color: blue;
 }
-.startlearning h1 {
-    text-align: center;
-    margin: 32px 0;
-}
 .startlearning {
     background-color: whitesmoke;
     width: 100%;
     height: auto;
-    margin-top: 32px;
+}
+.start {
+    padding-top: 32px;
+    text-align: center;
+    margin: 0 0 32px 0;
 }
 .course {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
     height: auto;
-    margin: 0 72px 32px 72px;
+    margin: 0 0 32px 0;
+    padding-right: 16px;
 }
 .courses {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
     height: auto;
-    margin: 0 72px 32px 72px;
+    margin: 0 0 32px 0;
+    padding-right: 16px;
 }
 .window {
     display: flex;
     flex-direction: column;
     margin-right: 32px;
     background-color: white;
+    width: 30%;
 }
 .windows { 
     display: flex;
     flex-direction: column;
     background-color: white;
+    width: 30%;
 }
 .course img {
     height: auto;
-    width: 100%;
 }
 .courses img {
     height: auto;
-    width: 100%;
+}
+.window h3 {
+    margin: 16px 0 8px 16px;
+}
+.windows h3 {
+    margin: 16px 0 8px 16px;
+}
+.window p {
+    margin: 0 0 24px 16px;
+}
+.windows p {
+    margin: 0 0 24px 16px;
 }
