@@ -184,3 +184,66 @@ a {
 .windows p {
     margin: 0 0 24px 16px;
 }
+.the {
+    display: block;
+    text-align: center;
+    padding: 32px 0;
+}
+.thesis {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.top {
+    text-align: center;
+    padding: 32px 0;
+}
+.bottom {
+    display: inline-flex;
+}
+.vid {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    margin: 0 24px 0 24px;
+}
+video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+.right {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+}
+.vid p {
+    margin: 8px 0 32px 0;
+}
+.fisma {
+    display: inline-flex;
+}
+.nowandthen {
+    display: inline-flex;
+}
+.exhibit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+}
+.right img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+.right h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 2rem;
+}
