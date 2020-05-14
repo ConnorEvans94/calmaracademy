@@ -49,6 +49,7 @@ li {
 }
 .banner {
     width: 100%;
+    min-width: 480px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -57,7 +58,17 @@ li {
 @media only screen and (max-width: 625px) {
     .banner {
         flex-direction: column;
-        padding: 2rem 1rem;
+        width: 100%;
+    }
+    .banner img {
+        min-width: 480px;
+        width: auto;
+        height: 100%;
+        margin: 0;
+    }
+    .intro {
+        width: 100%;
+        padding: 0 0 2rem 2rem;
     }
 }
 .banner img {
@@ -68,6 +79,9 @@ li {
 .intro {
     display: inline-flex;
     flex-direction: column;
+}
+.intro h3 {
+    margin: 2rem 0 1.5rem 0;
 }
 h1 {
     font-size: 3rem;
@@ -83,7 +97,6 @@ h3 {
     color: white;
     font-size: 1.5rem;
     border: none;
-    margin-top: 1rem;
 }
 .maincontainer {
     display: flex;
@@ -93,11 +106,23 @@ h3 {
     width: 60%;
     margin: 2rem 1.5rem;
 }
+@media only screen and (max-width: 625px) {
+    .caption {
+        display: none;
+    }
+}
 .news {
     display: flex;
     flex-direction: column;
     width: 40%;
     margin-top: 2rem;
+    min-width: 450px;
+}
+@media only screen and (max-width: 625px) {
+    .news {
+        width: 100%;
+        align-content: center;
+    }
 }
 .caption img {
     width: 100%;
@@ -114,6 +139,15 @@ h3 {
     display: flex;
     margin: 0 1rem 1rem 1rem;
 }
+@media only screen and (max-width: 625px) {
+    .date {
+        flex-direction: column;
+        width: 100%;
+    }
+    .date img {
+        width: 100%;
+    }
+}
 .date img {
     width: 35%;
     height: auto;
@@ -123,6 +157,15 @@ h3 {
     display: flex;
     margin: 1rem;
 }
+@media only screen and (max-width: 625px) {
+    .campus {
+        flex-direction: column;
+        width: 100%;
+    }
+    .campus img {
+        width: 100%;
+    }
+}
 .campus img {
     width: 35%;
     height: auto;
@@ -131,6 +174,15 @@ h3 {
 .guest {
     display: flex;
     margin: 1rem;
+}
+@media only screen and (max-width: 625px) {
+    .guest {
+        flex-direction: column;
+        width: 100%;
+    }
+    .guest img {
+        width: 100%;
+    }
 }
 .guest img {
     width: 35%;
