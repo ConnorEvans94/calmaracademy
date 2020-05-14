@@ -212,6 +212,11 @@ a {
     text-align: center;
     margin: 0 0 2rem 0;
 }
+@media only screen and (max-width: 625px) {
+    .start {
+        margin: 0 0 1rem 0;
+    }
+}
 .course {
     display: inline-flex;
     justify-content: center;
@@ -219,6 +224,11 @@ a {
     height: auto;
     margin: 0 0 2rem 0;
     padding-right: 1rem;
+}
+@media only screen and (max-width: 625px) {
+    .course {
+        margin: 0 0 0.5rem 0;
+    }
 }
 .courses {
     display: inline-flex;
@@ -240,6 +250,30 @@ a {
     flex-direction: column;
     background-color: white;
     width: 30%;
+}
+@media only screen and (max-width: 625px) {
+    .window {
+        display: none;
+    }
+    .windows {
+        display: none;
+    }
+    .course {
+        display: block;
+    }
+    .courses {
+        display: block;
+    }
+    .mobiles {
+        padding: 1rem 1rem 1.5rem 1rem;
+        background-color: lightslategray;
+        margin: 0.5rem 1rem;
+    }
+}
+@media only screen and (min-width: 625px) {
+    .mobiles {
+        display: none;
+    } 
 }
 .course img {
     height: auto;
