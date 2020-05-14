@@ -79,6 +79,7 @@ li {
 .intro {
     display: inline-flex;
     flex-direction: column;
+    padding-bottom: 2rem;
 }
 .intro h3 {
     margin: 2rem 0 1.5rem 0;
@@ -144,8 +145,12 @@ h3 {
         flex-direction: column;
         width: 100%;
     }
+    .desktop {
+        display: none;
+    }
     .date img {
-        width: 100%;
+        min-width: 480px;
+        max-width: 300px;
     }
 }
 .date img {
@@ -163,7 +168,8 @@ h3 {
         width: 100%;
     }
     .campus img {
-        width: 100%;
+        min-width: 480px;
+        max-width: 300px;
     }
 }
 .campus img {
@@ -181,7 +187,8 @@ h3 {
         width: 100%;
     }
     .guest img {
-        width: 100%;
+        min-width: 480px;
+        max-width: 300px;
     }
 }
 .guest img {
