@@ -318,6 +318,21 @@ a {
     height: auto;
     margin: 0 1.5rem;
 }
+@media only screen and (max-width: 625px) {
+    .mob {
+        display: none;
+    }
+    video {
+        margin: 1rem 0 1.5rem 0;
+        width: 100%;
+        height: auto;
+    }
+    .vid {
+        margin: 0rem 0rem;
+        width: 100%;
+        height: auto;
+    }
+}
 video {
     width: 100%;
     height: auto;
@@ -328,7 +343,13 @@ video {
     justify-content: start;
     flex-direction: column;
     width: 40%;
+    min-width: 480px;
     height: auto;
+}
+@media only screen and (max-width: 625px) {
+    .right {
+        display: none;
+    }
 }
 .vid p {
     margin: 0.5rem 0 2rem 0;
@@ -364,6 +385,14 @@ h4 {
 .footerr {
     text-align: right;
     display: flex;
+}
+@media only screen and (max-width: 625px) {
+    .footerr {
+        display: none;
+    }
+    .foot {
+        margin: 1rem 0 1rem 1.5rem;
+    }
 }
 .footerr p {
     margin-left: 1rem;
